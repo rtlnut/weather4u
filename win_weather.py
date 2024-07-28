@@ -13,7 +13,7 @@ import pystray
 from PIL import Image, ImageDraw
 
 # 配置
-api_key = '3a85705575145b64044cd8b80575f93a'  # 替换为你的高德API密钥
+api_key = 'YOUR_AMAP_API_KEY'  # 替换为你的高德API密钥
 config_file = os.path.join(os.path.expanduser("~"), 'weather_config.json')
 icon_path = 'weather_icon.ico' 
 
