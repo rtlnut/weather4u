@@ -43,7 +43,7 @@ api_key = '3a8570xxxxxxxxxx'
 - 保存并关闭文件
 
 4.打包并运行
-- 确保 win_weather.py 和 build_weather.py 在同一目录下
+- 确保 win_weather.py build_weather.py weather_icon.ico 三个文件在同一目录下
 - 运行 build_weather.py
 - 如果没有报错，目录下会生成 dist 文件夹，打开并运行其中的exe文件即可
 
