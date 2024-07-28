@@ -1,11 +1,10 @@
 # weather4u
-一个简单的Windows天气预报程序
+一个简单的Windows天气预报程序  ~~年轻人的第一个程序~~
 
 基于Python，使用高德开放平台的天气查询API
 
-**觉得好用就点个star吧**  **[我的哔哩哔哩](https://space.bilibili.com/403373585)**
+**觉得好用就点个star吧   [我的哔哩哔哩](https://space.bilibili.com/403373585)   欢迎为此项目贡献代码**
 
-欢迎为此项目贡献代码
 
 # 主要功能
 调用Windows通知功能，定时弹窗提示今明两天的天气
@@ -40,6 +39,8 @@
 - 安装所需模块 `pip install requests pywin3 pyinstaller pystray`
 
 ### 3. 配置
+- 从[这里](https://github.com/rtlnut/weather4u/archive/refs/heads/main.zip)下载源代码
+
 - 将你从高德控制台获得的Key填入 win_weather.py 第16行
 ```
 api_key = 'YOUR_AMAP_API_KEY'  # 替换为你的高德API密钥
